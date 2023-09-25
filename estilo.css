@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+#header-home{
+    width: 100%;
+    height: 23vh;
+    background-color: #d3c2c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header-nav{
+    width: 40%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display:flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: #a17e7e;
+    border-radius: 10px;
+}
+#section-banner{
+    width: 100%;
+    height: 50vh;
+}
+#section-cards{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d3c2c1;
+}
+.card{
+    width: 20%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(117,116,116,0.2);
+}
+.text-card-titulo{
+    padding-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-card-paragrafo{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#secao3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #b49e9d;
+    align-items: center;
+
+}
+#text-secao3{
+    background-color: rgba(229, 234, 240, 0.815);
+    width: 40%;
+    height: 80%;
+    align-items: center;
+}
+
+#img-secao3{
+    width: 40%;
+    height: 80%;
+}
+hr{
+    border: 1px solid black;
+    margin-right: 70px;
+}
+#title{
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#p-secao3{
+    margin-top: 5%;
+    margin-right: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: #d3c2c1;
+    width: 100%;
+    height: 20vh;
+}
